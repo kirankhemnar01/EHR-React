@@ -1,0 +1,20 @@
+@import 'assets/scss/style.scss';
+
+.custom-tooltip {
+  border: 1px solid $grey700;
+  padding: 8px;
+  background-color: $paper;
+  -webkit-box-shadow: 1px 2px 6px 4px rgba(0,0,0,0.33); 
+  box-shadow: 1px 2px 6px 4px rgba(0,0,0,0.33);
+  min-width: 160px;
+
+  & > .title {
+    color: $grey700;
+    margin: 4px 0;
+  }
+  & > .item {
+    color: $grey700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
